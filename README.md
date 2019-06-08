@@ -37,19 +37,19 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
     <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-16.0" />
     
     <!-- MSM8916-Common -->
-    <project name="Soft-Bullet/android_device_samsung_msm8916-common" path="device/samsung/msm8916-common" remote="github" revision="lineage-16.0" />
+    <project name="a5-dev-for-pie/android_device_samsung_msm8916-common" path="device/samsung/msm8916-common" remote="github" revision="lineage-16.0" />
    
     <!-- Device -->
-    <project name="Soft-Bullet/android_device_samsung_a5ultexx" path="device/samsung/a5ultexx" remote="github" revision="lineage-16.0" />
+    <project name="a5-dev-for-pie/android_device_samsung_a5ultexx" path="device/samsung/a5ultexx" remote="github" revision="lineage-16.0" />
     
     <!-- Device-Common -->
-    <project name="Soft-Bullet/android_device_samsung_a5-common" path="device/samsung/a5-common" remote="github" revision="master" />
+    <project name="a5-dev-for-pie/android_device_samsung_a5-common" path="device/samsung/a5-common" remote="github" revision="master" />
     
     <!-- Kernel -->
-    <project name="Soft-Bullet/android_kernel_samsung_msm8916" path="kernel/samsung/msm8916" remote="github" revision="lineage-16.0" />
+    <project name="a5-dev-for-pie/android_kernel_samsung_msm8916" path="kernel/samsung/msm8916" remote="github" revision="lineage-16.0" />
        
     <!-- Vendor -->
-    <project name="Soft-Bullet/android_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
+    <project name="a5-dev-for-pie/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
 	
   </manifest>
 
